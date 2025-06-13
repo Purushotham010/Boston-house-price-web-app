@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: boston-house-price-app
+    runtime: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10

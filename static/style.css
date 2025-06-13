@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    padding: 30px;
+    color: darkblue;
+}
+
+h2 {
+    color: navy;
+    text-align: center;
+}
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: steelblue;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: dodgerblue;
+}
+
+h3 {
+    text-align: center;
+    color: green;
+    margin-top: 30px;
+}
